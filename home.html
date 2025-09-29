@@ -4,13 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reza Hashemi - Resume</title>
+  
+  <!-- Link to external CSS -->
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <div class="container" id="resume">
     <!-- Navigation Bar -->
     <nav class="navbar">
-      <ul class="nav-links">
+      <div class="nav-brand">
+        <span>Reza Hashemi</span>
+      </div>
+      
+      <!-- Hamburger Menu Button -->
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
         <li><a href="#contact">Contact</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#languages">Languages</a></li>
@@ -20,7 +34,7 @@
       </ul>
     </nav>
 
-    <!-- Header -->
+    <!-- Rest of your content remains the same -->
     <header>
       <img src="https://github.com/rezahashemics.png" alt="Reza Hashemi">
       <h1>Reza Hashemi</h1>
@@ -28,7 +42,7 @@
     </header>
 
     <!-- Download PDF Button -->
-    <a id="downloadBtn" href="cv.pdf" download>Download Resume as PDF</a>
+    <button id="downloadBtn">Download Resume as PDF</button>
     <div id="loading" class="loading">
       <div class="spinner"></div>
       <p>Generating PDF...</p>
@@ -107,7 +121,7 @@
     </section>
   </div>
 
-  <!-- Simple PDF generation using print functionality -->
-    <script src="main.js"></script>
+  <!-- Link to external JavaScript -->
+  <script src="main.js"></script>
 </body>
 </html>
